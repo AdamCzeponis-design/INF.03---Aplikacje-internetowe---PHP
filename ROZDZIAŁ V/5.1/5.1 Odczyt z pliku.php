@@ -8,7 +8,7 @@
         echo "Pierwszy gosc to: " . $linie[0] . "<br>---<br>";
     }
 
-    // SPOSOB B: Klasyczny strumieniowy (wymagany na egzaminie INF.03)
+    // SPOSOB B: Klasyczny strumieniowy
     if (file_exists($nazwaPliku)) {
         $plik = fopen($nazwaPliku, "r"); // Otwarcie do odczytu
 
